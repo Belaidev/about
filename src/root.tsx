@@ -1,5 +1,5 @@
 // @refresh reload
-import { Suspense } from "solid-js";
+import { JSXElement, Suspense } from "solid-js";
 import {
   Body,
   ErrorBoundary,
@@ -13,7 +13,7 @@ import {
 } from "solid-start";
 import "./root.css";
 
-export default function Root() {
+export default function Root(): JSXElement {
   return (
     <Html lang="en">
       <Head>

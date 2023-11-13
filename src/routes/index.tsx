@@ -1,4 +1,6 @@
-export default function Home() {
+import { JSXElement } from "solid-js";
+
+export default function Home(): JSXElement {
   return (
     <p>
       <span>
