@@ -1,0 +1,24 @@
+/* || 3rd party */
+
+@import "../node_modules/@mdi/font/css/materialdesignicons.min.css";
+
+/* || Styles */
+
+@import "./styles/fonts.css";
+
+/* || Tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* || Base styles */
+
+* {
+  @apply box-border border-zinc-800 shadow-zinc-800;
+}
+
+body {
+  @apply flex max-h-screen min-h-screen flex-col text-zinc-800;
+  font-family: "Noto Sans Display", "Noto Color Emoji", "Noto Emoji";
+}
