@@ -3,14 +3,14 @@
 @font-face {
   font-style: normal;
   font-weight: 100 900;
-  src: url("../../public/fonts/NotoSansDisplay/NotoSansDisplay-VariableFont_wdth,wght.ttf");
+  src: url("../../public/fonts/NotoSansDisplay/NotoSansDisplay-VariableFont_wdth,wght.woff2");
   font-family: "Noto Sans Display";
 }
 
 @font-face {
   font-style: italic;
   font-weight: 100 900;
-  src: url("../../public/fonts/NotoSansDisplay/NotoSansDisplay-Italic-VariableFont_wdth,wght.ttf");
+  src: url("../../public/fonts/NotoSansDisplay/NotoSansDisplay-Italic-VariableFont_wdth,wght.woff2");
   font-family: "Noto Sans Display";
 }
 
@@ -19,7 +19,7 @@
 @font-face {
   font-style: normal;
   font-weight: 100 900;
-  src: url("../../public/fonts/NotoSansMono/NotoSansMono-VariableFont_wdth,wght.ttf");
+  src: url("../../public/fonts/NotoSansMono/NotoSansMono-VariableFont_wdth,wght.woff2");
   font-family: "Noto Sans Mono";
 }
 
@@ -28,7 +28,7 @@
 @font-face {
   font-style: normal;
   font-weight: 400;
-  src: url("../../public/fonts/NotoColorEmoji/NotoColorEmoji-Regular.ttf");
+  src: url("../../public/fonts/NotoColorEmoji/NotoColorEmoji-Regular.woff2");
   font-family: "Noto Color Emoji";
 }
 
@@ -37,7 +37,7 @@
 @font-face {
   font-style: normal;
   font-weight: 300 700;
-  src: url("../../public/fonts/NotoEmoji/NotoEmoji-VariableFont_wght.ttf");
+  src: url("../../public/fonts/NotoEmoji/NotoEmoji-VariableFont_wght.woff2");
   font-family: "Noto Emoji";
 }
 
@@ -46,13 +46,13 @@
 @font-face {
   font-style: normal;
   font-weight: 100 900;
-  src: url("../../public/fonts/NotoSerif/NotoSerif-VariableFont_wdth,wght.ttf");
+  src: url("../../public/fonts/NotoSerif/NotoSerif-VariableFont_wdth,wght.woff2");
   font-family: "Noto Serif";
 }
 
 @font-face {
   font-style: italic;
   font-weight: 100 900;
-  src: url("../../public/fonts/NotoSerif/NotoSerif-Italic-VariableFont_wdth,wght.ttf");
+  src: url("../../public/fonts/NotoSerif/NotoSerif-Italic-VariableFont_wdth,wght.woff2");
   font-family: "Noto Serif";
 }
