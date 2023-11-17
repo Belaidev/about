@@ -1,43 +1,47 @@
 {
-  "name": "about",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start"
-  },
-  "type": "module",
-  "devDependencies": {
-    "@total-typescript/ts-reset": "latest",
-    "@types/autosize": "latest",
-    "@types/lodash": "latest",
-    "@typescript-eslint/eslint-plugin": "latest",
-    "@typescript-eslint/parser": "latest",
-    "autoprefixer": "latest",
-    "eslint": "latest",
-    "eslint-plugin-solid": "latest",
-    "postcss": "latest",
-    "postcss-import": "latest",
-    "postcss-nesting": "latest",
-    "prettier": "latest",
-    "prettier-plugin-css-order": "latest",
-    "prettier-plugin-tailwindcss": "latest",
-    "solid-start-node": "latest",
-    "tailwindcss": "latest",
-    "typescript": "latest",
-    "vite": "latest"
-  },
-  "dependencies": {
-    "@mdi/font": "latest",
-    "@solidjs/meta": "latest",
-    "@solidjs/router": "latest",
-    "autosize": "latest",
-    "lodash": "latest",
-    "solid-js": "latest",
-    "solid-start": "latest"
-  },
-  "engines": {
-    "node": "18"
-  }
+	"name": "about",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "solid-start dev",
+		"build": "solid-start build",
+		"start": "solid-start start"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@total-typescript/ts-reset": "latest",
+		"@types/autosize": "latest",
+		"@types/lodash": "latest",
+		"@typescript-eslint/eslint-plugin": "latest",
+		"@typescript-eslint/parser": "latest",
+		"autoprefixer": "latest",
+		"eslint": "latest",
+		"eslint-plugin-solid": "latest",
+		"postcss": "latest",
+		"postcss-import": "latest",
+		"postcss-nesting": "latest",
+		"prettier": "latest",
+		"prettier-plugin-css-order": "latest",
+		"prettier-plugin-tailwindcss": "latest",
+		"solid-start-node": "latest",
+		"tailwindcss": "latest",
+		"ts-essentials": "latest",
+		"typescript": "latest",
+		"vite": "latest"
+	},
+	"dependencies": {
+		"@mdi/font": "latest",
+		"@solid-primitives/event-listener": "latest",
+		"@solid-primitives/rootless": "latest",
+		"@solid-primitives/scheduled": "latest",
+		"@solid-primitives/storage": "latest",
+		"@solid-primitives/utils": "latest",
+		"@solidjs/meta": "latest",
+		"@solidjs/router": "latest",
+		"autosize": "latest",
+		"lodash": "latest",
+		"mathjs": "latest",
+		"solid-js": "latest",
+		"solid-start": "latest"
+	}
 }
