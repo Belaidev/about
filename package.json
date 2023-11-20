@@ -1,20 +1,24 @@
 {
 	"name": "about",
-	"version": "0.0.0",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"dev": "solid-start dev",
 		"build": "solid-start build",
 		"start": "solid-start start"
 	},
-	"type": "module",
+	"engines": {
+		"node": ">=18"
+	},
 	"devDependencies": {
 		"@total-typescript/ts-reset": "latest",
 		"@types/autosize": "latest",
 		"@types/lodash": "latest",
+		"@types/node": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"autoprefixer": "latest",
+		"esbuild": "latest",
 		"eslint": "latest",
 		"eslint-plugin-solid": "latest",
 		"postcss": "latest",
@@ -26,8 +30,9 @@
 		"solid-start-node": "latest",
 		"tailwindcss": "latest",
 		"ts-essentials": "latest",
+		"ts-node": "latest",
 		"typescript": "latest",
-		"vite": "latest"
+		"vite": "^4.5.0"
 	},
 	"dependencies": {
 		"@mdi/font": "latest",
@@ -37,7 +42,7 @@
 		"@solid-primitives/storage": "latest",
 		"@solid-primitives/utils": "latest",
 		"@solidjs/meta": "latest",
-		"@solidjs/router": "latest",
+		"@solidjs/router": "^0.9.1",
 		"autosize": "latest",
 		"lodash": "latest",
 		"mathjs": "latest",
