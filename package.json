@@ -3,6 +3,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"barrel": "bun run scripts/barrel.ts -- src/components/ src/consts/ src/lib src/primitives/ src/stores/",
 		"dev": "solid-start dev",
 		"build": "solid-start build",
 		"start": "solid-start start"
