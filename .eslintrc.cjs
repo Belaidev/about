@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	env: {
 		browser: true,
 		es2021: true
@@ -14,7 +14,7 @@ export default {
 			env: {
 				node: true
 			},
-			files: ['.eslintrc.js'],
+			files: ['.eslintrc.{js,cjs}'],
 			parserOptions: {
 				sourceType: 'script'
 			}
