@@ -3,7 +3,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"barrel": "bun run scripts/barrel.ts -- src/components/ src/consts/ src/lib src/primitives/ src/stores/",
+		"barrel": "bun run scripts/barrel.ts -- src/components/ src/consts/ src/lib src/primitives/ src/stores/ src/routes",
 		"dev": "solid-start dev",
 		"build": "solid-start build",
 		"start": "solid-start start"
@@ -43,11 +43,12 @@
 		"@solid-primitives/storage": "latest",
 		"@solid-primitives/utils": "latest",
 		"@solidjs/meta": "latest",
-		"@solidjs/router": "^0.9.1",
+		"@solidjs/router": "^0.8.2",
 		"autosize": "latest",
 		"lodash": "latest",
 		"mathjs": "latest",
 		"solid-js": "latest",
-		"solid-start": "latest"
+		"solid-start": "latest",
+		"solid-transition-group": "latest"
 	}
 }
